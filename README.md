@@ -59,5 +59,5 @@
 
        ​		1：表示是，并且显示是，会在该技能后显示New提示。
 
-4. 在浏览器中输入localhost或127.0,0,1。访问www/index.php，生成index.html。index.php生成成功后会自动重定向到index.html。
+4. 在浏览器中输入localhost或127.0.0.1。自动访问www/index.php，生成index.html。index.php生成成功后会自动重定向到index.html。
 
