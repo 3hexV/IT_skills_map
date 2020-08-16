@@ -55,7 +55,7 @@ for ($i = 0; $i < count($info_data); $i++) {
     if($value_now>100) $value_now = 100;
     else if($value_now<0) $value_now = 0;
 
-    switch($value_now/10)
+    switch((int)($value_now/10))
     {
         case 9 :case 10: $grade_index = 3; break;
         case 8:case 7:case 6:case 5: $grade_index = 2; break;
