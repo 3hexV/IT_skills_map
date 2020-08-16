@@ -1,0 +1,49 @@
+
+                <!-- NULL -->
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+
+                </div>
+
+
+                <!-- 切换按钮 -->
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <br><br>
+                    <button type="button" class="btn btn-primary btn-block btn-lg class_info_1"
+                        onclick="switch_info(99201)">编程语言</button>
+                    <button type="button" class="btn btn-danger btn-block btn-lg class_info_2"
+                        onclick="switch_info(99202)">IT基础</button>
+                    <button type="button" class="btn btn-success btn-block btn-lg class_info_3"
+                        onclick="switch_info(99203)">框架\库...</button>
+                    <button type="button" class="btn btn-warning btn-block btn-lg class_info_4"
+                        onclick="switch_info(99204)">其他</button>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+    </div>
+
+    <!-- JS_begin -->
+    <script type="text/javascript">
+        // 信息切换显示 
+        var real_info_p = "ci_r_";
+
+        function switch_info(ci_id) {
+            // 隐藏正在显示的
+            var now_ele = $("." + "show_info")
+            now_ele.addClass("hidden_info");
+            now_ele.removeClass("show_info");
+
+            // 显示目标类的信息
+            var real_info_com = real_info_p + String(ci_id - 99200);
+            $("." + real_info_com).removeClass("hidden_info");
+            $("." + real_info_com).addClass("show_info");
+        }
+    </script>
+    <!-- JS_end -->
+
+</body>
+
+</html>

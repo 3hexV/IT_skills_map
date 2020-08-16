@@ -1,0 +1,29 @@
+
+<li class="list-group-item" style="background-color: #eeeeee;">
+                            <br>
+                            <span class="badge" style="background-color: blue;"></span>
+                            <label class="col-xs-3 col-sm-3 col-md-3 col-lg-3">参考
+                            </label>
+                            <div class="progress progress-striped active" style="margin-right: 5%;">
+                                <!-- 0%-20% -->
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                    差
+                                </div>
+                                <!-- 20%-50% -->
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="30"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                                    一般
+                                </div>
+                                <!-- 50%-80% -->
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                    良好
+                                </div>
+                                <!-- 90%-100% -->
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="10"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+                                    优秀
+                                </div>
+                            </div>
+                        </li>

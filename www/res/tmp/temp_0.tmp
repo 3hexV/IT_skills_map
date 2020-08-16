@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 引入Bootstrap(CDN) -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- 引入Jquery(CDN) -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"> </script>
+    <title>IT技能图_HEX</title>
+
+    <!-- 其他本地CSS -->
+    <link rel="stylesheet" href="./res/other.css">
+</head>
+
+<body>
+    <!--    *****************************************
+            * 作者：3hex
+            * 时间：2020-8-15
+            * github:https://github.com/snoW3heX
+            *****************************************
+      -->
+    <div class="container" style=" margin-top: 20px; border-radius:5px;">
+        <br>
+        <div class="container">
+            <a href="#" class="list-group-item active" target="">
+                <!-- ！！Title！！ -->
+                <h1 class="list-group-item-heading">IT技能图</h1>
+                <!-- ！！Who ！！-->
+                <p class="list-group-item-text">3hex</p>
+            </a>
+
+            <hr>
+
+            <div class="main_info">
